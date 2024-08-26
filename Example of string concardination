@@ -1,0 +1,14 @@
+text = "Python programming is fun!"
+
+# Using 'in' operator
+is_python_in_text = "Python" in text
+is_java_in_text = "Java" in text
+
+#Using 'not in' operator
+is_python_not_in_text = "Python" not in text
+is_java_not_in_text = "Java" not in text
+
+print("Is 'Python' in the text?", is_python_in_text)
+print("Is 'Java' in the text?", is_java_in_text)
+print("Is 'Python' not in the text?", is_python_not_in_text)
+print("Is 'Java' not in the text?", is_java_not_in_text)

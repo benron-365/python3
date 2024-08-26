@@ -1,0 +1,13 @@
+#Define the size of the multiplication table
+tablefrom = int(input("Enter the first number for multiplication table : "))
+fromlimit = int(input(f"Product from which value : "))
+tolimit = int(input("Product to which value : "))
+tableto = int(input("Enter the last number for multiplication table : "))
+
+#outer loop for rows (1 to 10)
+for i in range (tablefrom,tableto+1):
+    #inner loop for columns (1 to 10)
+    for j in range (fromlimit,tolimit+1):        
+        product = i * j
+        print(f"{product:8}",end =" ") 
+    print()    #print the product with formatting newline after row

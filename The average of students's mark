@@ -1,0 +1,6 @@
+scores = [45,43,33,34,50]
+total_score=0
+for i in scores :
+    total_score=i+total_score
+
+print(f"The average of marks : {total_score/len(scores)}")    

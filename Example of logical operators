@@ -1,0 +1,7 @@
+is_sunny = True
+
+#applying the 'not' operator
+is_rainy = not is_sunny
+
+print("Is it very sunny ?",is_sunny)
+print("Is it very rainy ?",is_rainy)

@@ -1,0 +1,3 @@
+print(10)  #number    integer  .....,-3,-2,-1,0,1,2,3,......
+print(10.5)   # float number
+print('10')   #string text

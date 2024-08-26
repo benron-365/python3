@@ -1,0 +1,17 @@
+#list of students
+scores = [85,90,78,92,88]
+
+#initialise variables to store the highest and lowest scores
+highest_score = scores[0]
+lowest_score = scores[0]
+
+#loop through each score in the list 
+for score in scores :
+    if score > highest_score :
+        highest_score = score #update highest score
+    if score < lowest_score:
+        lowest_score = score #update lowest score
+
+#print the highest and lowest scores
+print(f"The highest score is : {highest_score}")
+print(f"The lowest score is : {lowest_score}")

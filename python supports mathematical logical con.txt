@@ -1,0 +1,8 @@
+python supports mathematical logical conditions: 
+
+equals : a==b
+not equals :a!=b
+less than : a<b
+less than or equal to : a<=b
+greater than : a>b
+greater than or equal to : a>=b
